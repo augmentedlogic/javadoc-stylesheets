@@ -1,17 +1,17 @@
 :root{
-  --background: #222222;
+  --background: #383c4a;
   --main-color: #efefef;
-  --main-link-color: orange;
-  --column-head-color: #47494C;
+  --main-link-color: #5294e2;
+  --column-head-color: #383c4a;
   --bar-color: #818487;
-  --block-background: #232323;
+  --block-background: #383c4a;
 
-  --column-focus: #cccccc;
-  --column-dark: #dddddd;
-  --column-light: #f1f1f1;
-  --tab-color: #444;
+  --column-focus: #404552;
+  --column-dark: #4b5162;
+  --column-light: #7c818c;
+  --tab-color: #efefef;
   --source-line-number: green;
-  --external-link: #b57c65;
+  --external-link: #5294e2;
 
   --container-width : 1200px;
 
@@ -21,7 +21,7 @@
 
   --icon-external-link: url('data:image/svg+xml,\
   <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 20 20"> \
-  <g style="stroke:rgb(35,82,124);stroke-width:1"> \
+  <g style="stroke:rgb(82,148,226);stroke-width:1"> \
    <line x1="5" y1="5" x2="5" y2="14" /> \
    <line x1="14" y1="9" x2="14" y2="14" /> \
    <line x1="5" y1="14" x2="14" y2="14" /> \
@@ -174,7 +174,7 @@ Document title and Copyright styles
     margin:0;
 }
 .topNav {
-    background-color:var(--bar-color);
+    background-color:var(--background);
     padding:0px;
     margin: 0px;
     clear:right;
@@ -598,12 +598,13 @@ div.block div.block span.interfaceName {
 
 
 
-/* code block tweaks */
+/**
+ more code block and list items
+ **/
 code, tt {
     font-size: var(--font-size-small);
 }
 pre {
-    /* inspired by GitHub */
     padding: 0 5px;
     background: var(--pre-background);
     border-radius: none;

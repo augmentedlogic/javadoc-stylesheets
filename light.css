@@ -174,7 +174,7 @@ Document title and Copyright styles
     margin:0;
 }
 .topNav {
-    background-color:var(--bar-color);
+    background-color:var(--background);
     padding:0px;
     margin: 0px;
     clear:right;
@@ -598,12 +598,13 @@ div.block div.block span.interfaceName {
 
 
 
-/* code block tweaks */
+/**
+ more code block and list items
+ **/
 code, tt {
     font-size: var(--font-size-small);
 }
 pre {
-    /* inspired by GitHub */
     padding: 0 5px;
     background: var(--pre-background);
     border-radius: none;
